@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="yourprofile.css">
+
+    <body>
+
+            <div> <h2 >DOG SITTERS FOR YOU </div>
+                <div> <h3 >Your Profile </div>
+        </header>
+    
+        <section>
+            <div>
+                <img src="https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png" alt="User Profile Picture" width="60" height="60">
+            </div>
+            <h4>John Doe</h2>
+            <h5><button class="button button3">Edit Profile</button>
+            </h3>
+            <p>Experienced dog sitter with a love for all furry friends. Providing quality care and attention to ensure your dogs are happy and healthy.</p>
+
+            <ul>
+                <li><strong>Location:</strong> 08816</li>
+                <li><strong>Availability:</strong> Flexible schedule</li>
+                <li><strong>Services:</strong> Dog sitting, walking, and basic training</li>
+                <li><strong>Experience:</strong> 5+ years</li>
+<br>
+                <button onclick="sendMessage()">Send Message</button>
+                <button class="button button4">View Reviews</button>
+            </section>
+        
+            <script>
+                function sendMessage() {
+                    alert("Message sent! You will be contacted shortly.");
+                    // You can add additional logic here to handle the message sending process
+                }
+            </script>
+        </section>
+    
+    </body>
+    </html>
